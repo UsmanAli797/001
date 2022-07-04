@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import Marks  from './marks'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      Hello World
+    <Marks StudentName = 'Usman Ali Abbasi' Marks = '100'/>
+    <br/>
+    <Marks StudentName = 'Rizwan Ali Abbasi' Marks = '110'/>
+    <br/>
     </div>
   );
 }
